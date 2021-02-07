@@ -2,7 +2,7 @@ import gc
 gc.collect()
 
 import streamlit as st
-import opencv as cv2
+import cv2 as cv2
 import numpy as np
 import time
 
