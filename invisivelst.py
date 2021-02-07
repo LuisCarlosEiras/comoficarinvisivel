@@ -15,7 +15,7 @@ st.write("""
 ### 4) Quando a imagem aparecer, vista um manto vermelho e vá para frente da câmera.
 """)
 
-import cv2
+import opencv as cv2
 import numpy as np
 import time
 
