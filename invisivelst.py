@@ -2,6 +2,9 @@ import gc
 gc.collect()
 
 import streamlit as st
+import opencv as cv2
+import numpy as np
+import time
 
 st.title('Como ficar invisível')
 
@@ -14,10 +17,6 @@ st.write("""
 
 ### 4) Quando a imagem aparecer, vista um manto vermelho e vá para frente da câmera.
 """)
-
-import opencv as cv2
-import numpy as np
-import time
 
 run = st.checkbox("Clique aqui para ligar a câmera")
 
